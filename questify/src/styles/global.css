@@ -1,0 +1,48 @@
+/* global.css */
+
+/* Общий контейнер */
+.quests-container {
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Заголовок */
+.quests-container h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Карточка квеста */
+.quest-card {
+    width: 300px;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background: #fff;
+}
+
+/* Кнопка */
+.complete-button {
+    background: #1677ff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.complete-button:hover {
+    background: #125dcc;
+}
+
+/* Блок с очками */
+.points-display {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
